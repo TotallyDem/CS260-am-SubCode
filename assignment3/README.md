@@ -31,12 +31,14 @@ A deconstructor included, but effectiveness not garuenteed.
 ----------------------------------
 # What is the expected output of the main.cpp file?
 This:
-Hello
-Hello
-
-1 1
-3 3
-2 2
-4 4
-
+<p>
+Hello<br>
+Hello<br>
+<br>
+1 1<br>
+3 3<br>
+2 2<br>
+4 4<br>
+<br>
 All tests passed.
+</p>
