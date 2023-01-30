@@ -17,18 +17,18 @@ A deconstructor included, but effectiveness not garuenteed.
 ### Tests to include in main.cpp
  - Test template support with at least two datatypes.
  - Test the queuestate() function with a while loop to empty the queue to console.
- <hr>
- # How complex are my functions?
-  - peek() is as simple as it gets, all in one line, I don't know how to improve it.
-  - enqueue() could be simplified significantly if I tracked the end node of the linked list. Other than that, it's relatively simple.
-  - dequeue() really simple, not much room for improvement.
-  - queuestate() a simple comparison, can't get much simpler than that.
-<hr>
+-----------------------
+# How complex are my functions?
+ - peek() is as simple as it gets, all in one line, I don't know how to improve it.
+ - enqueue() could be simplified significantly if I tracked the end node of the linked list. Other than that, it's relatively simple.
+ - dequeue() really simple, not much room for improvement.
+ - queuestate() a simple comparison, can't get much simpler than that.
+-----------------------------------
 # What lines meet the code requirements?
-  - enqueue() is located in "queue.hpp" lines 13-27
-  - dequeue() is located in "queue.hpp" lines 32-38
-  - peek() is located in "queue.hpp" lines 43-45
-<hr>
+ - enqueue() is located in "queue.hpp" lines 13-27
+ - dequeue() is located in "queue.hpp" lines 32-38
+ - peek() is located in "queue.hpp" lines 43-45
+----------------------------------
 # What is the expected output of the main.cpp file?
 This:
 Hello
