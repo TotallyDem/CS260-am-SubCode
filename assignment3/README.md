@@ -30,9 +30,7 @@ A deconstructor included, but effectiveness not garuenteed.
  - peek() is located in "queue.hpp" lines 43-45
 ----------------------------------
 # What is the expected output of the main.cpp file?
-This:
-<p>
-Hello<br>
+<p>Hello<br>
 Hello<br>
 <br>
 1 1<br>
@@ -40,5 +38,4 @@ Hello<br>
 2 2<br>
 4 4<br>
 <br>
-All tests passed. 
-</p>
+All tests passed.</p>
