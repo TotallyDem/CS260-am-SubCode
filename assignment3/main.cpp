@@ -21,6 +21,17 @@ int main (void) {
     while (intqueue.queuestate() != 1) {
         cout << intqueue.peek() << ' ' << intqueue.dequeue() << endl;
     }
+    //* exception test.
+    try {
+        intqueue.peek();
+    } catch(std::out_of_range& e) {
+        cout << endl << "peek failed succesfully. " << e.what() << endl;
+    }
+    try {
+        intqueue.dequeue();
+    } catch(std::out_of_range& e) {
+        cout << "dequeue failed succesfully. " << e.what() << endl;
+    }
     cout << endl << "All tests passed.";
     return 0;
 }

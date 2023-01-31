@@ -1,3 +1,4 @@
+#include <stdexcept>
 #include "node.hpp"
 template <typename T>
 /*
@@ -27,9 +28,10 @@ class Queue {
         }
         /*
         This function will remove the front of the queue and return its value.
-        If the queue is empty this will result in undefined behavior.
+        If the queue is empty this will result in std::out_of_range error.
         */
         T dequeue() {
+            if (queuehead == nullptr) throw std::out_of_range("dequeue only functions on a queue with data"); 
             Node<T> *newhead = queuehead->next;
             T endvalue = queuehead->value;
             delete queuehead;
@@ -38,9 +40,10 @@ class Queue {
         }
         /*
         This function will return the value at the head of the queue.
-        If the queue is empty this will result in undefined behavior.
+        If the queue is empty this will result in std::out_of_range error.
         */
         T peek() {
+            if (queuehead == nullptr) throw std::out_of_range("peek only functions on a queue with data"); 
             return queuehead->value;
         }
         /*
