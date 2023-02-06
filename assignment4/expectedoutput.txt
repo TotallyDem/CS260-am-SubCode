@@ -1,0 +1,51 @@
+Testing adding, reading, removing number, removing on empty list, removing out of bounds.
+10
+1
+1
+0
+1
+get failed succesfully. Attempted to read from empty list.
+get failed succesfully. Index out of range.
+
+
+
+Testing adding to end of list
+list[0] : 0
+list[1] : 1
+list[2] : 2
+list[3] : 3
+list[4] : 4
+
+
+
+Testing adding in middle of list
+list[0] : 0
+list[1] : 1
+list[2] : 2
+list[3] : 42
+list[4] : 3
+list[5] : 4
+
+
+
+Testing adding to front of list
+list[0] : -1
+list[1] : 0
+list[2] : 1
+list[3] : 2
+list[4] : 42
+list[5] : 3
+list[6] : 4
+
+
+
+testing negative and exceeding length add requests
+list[0] : -2
+list[1] : -1
+list[2] : 0
+list[3] : 1
+list[4] : 2
+list[5] : 42
+list[6] : 3
+list[7] : 4
+list[8] : 203
