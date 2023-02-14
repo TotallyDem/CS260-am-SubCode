@@ -1,0 +1,39 @@
+Testing adding, reading, removing number, removing on empty list, removing out of bounds.
+0
+1
+1
+0
+1
+get failed succesfully. Attempted to read from empty list.
+get failed succesfully. Index out of range.
+
+
+
+Testing adding to end of list
+list[0] : 0
+list[1] : 1
+list[2] : 2
+list[3] : 3
+list[4] : 4
+
+
+
+Testing adding in middle of list
+list[0] : 0
+list[1] : 1
+list[2] : 2
+list[3] : 3
+list[4] : 3
+list[5] : 4
+
+
+
+Testing numbers well below and above the front and back values
+list[0] : -30
+list[1] : 0
+list[2] : 1
+list[3] : 2
+list[4] : 3
+list[5] : 3
+list[6] : 4
+list[7] : 100
