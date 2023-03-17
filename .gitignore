@@ -1,2 +1,8 @@
 
 *.exe
+assignment7/.vscode/settings.json
+assignment7/.vscode/c_cpp_properties.json
+assignment7/.vscode/launch.json
+assignment6/.vscode/settings.json
+assignment6/.vscode/launch.json
+assignment6/.vscode/c_cpp_properties.json
