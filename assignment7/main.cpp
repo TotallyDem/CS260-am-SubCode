@@ -27,7 +27,20 @@ int main(void) {
     cout << "SIMPLE HASHTABLE TESTS COMPLETE" << endl << endl;
     cout << "STARTING COMPLICATED HASHTABLE TESTS" << endl;
     HashTable Table(26);
-    cout << "Table.Table[0][0]" << "TEST" << endl;
-    
+    // Initial add testing
+    cout << "Adding \"Hello world!\"..." << endl;
+    Table.add("Hello world!");
+    cout << "Does \"Hello world!\" exist? " << Table.get("Hello world!") << endl;
+    // Initial remove testing
+    cout << "Removing \"Hello world!\"..." << endl;
+    Table.remove("Hello world!");
+    cout << "Does \"Hello world!\" exist? " << Table.get("Hello world!") << endl;
+    // Collison testing
+    cout << "Adding \"ab\"" << endl;
+    Table.add("ab");
+    cout << "Adding \"ba\"" << endl;
+    Table.add("ba");
+    cout << "Does \"ab\" and \"ba\" exist? " << (Table.get("ab") && Table.get("ba")) << endl;
+    cout << "COMPLICATED HASHTABLE TESTS COMPLETE" << endl;
     return 0;
 }
